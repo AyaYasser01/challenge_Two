@@ -1,5 +1,6 @@
 import Navbar from "./component/nav/Navbar"
 import Posts from "./component/posts/Posts"
+import Sidebar from "./component/sidebar/Sidebar"
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
     <Posts userName="post 3"
       content="this is the body of post 3"
     />
+    </div>
+    <div style={{width:"30%"}}>
+        <Sidebar/>
     </div>
     </div>
     </>
